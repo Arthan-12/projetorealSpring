@@ -38,6 +38,9 @@ public class Product {
     @Column(name = "Package", nullable = true, length = 30, columnDefinition = "nvarchar(30)")
     private String packagename;
 
+    @Column(name = "ProductImage", nullable = true, length = 400, columnDefinition = "nvarchar(400")
+    private String imagem;
+
     @Column(name = "IsDiscontinued", nullable = false)
     private Boolean isdiscontinued;
 }
